@@ -67,7 +67,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 </nav>
 
 <div class="container mt-4 sks">
-<h3><?php echo "Welcome ". $_SESSION['username']?> ..!Start Making Your Resume...</h3>
+<h3><?php echo "Welcome ". $_SESSION['username']?>... Have a nice experience building your resume!</h3>
 <hr>
 
 </div>
@@ -129,12 +129,12 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                 <h3>Professional Information</h3>
 
                 <div class="form-group mt-2 ">
-                    <label for="field"> objective</label>
+                    <label for="field"> OBJECTIVES </label>
                     <textarea id="objectiveField" type="text" placeholder="Enter here" class="form-control" rows="2"></textarea>
                 </div>
 
                 <div class="form-group mt-2 " id="we">
-                    <label for=""> skills</label>
+                    <label for=""> SKILLS </label>
                     <textarea type="text"placeholder="Enter here" class="form-control weField" rows="3"></textarea>
                 </div>
                 <!--new text area  -->
